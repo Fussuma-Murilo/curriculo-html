@@ -5,7 +5,47 @@
 }
 
 body{
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 0.6cm;
+}
+
+h1{
+    font-size: 1.2cm;
+}
+
+#profissional {
+    width: 15cm;
+    margin: auto;
+}
+
+#dados {
+    padding-top: 50px;
+    width: 15cm;
+    margin: auto;
+}
+
+#perfil{
+    border: 5px rgb(201, 199, 120) solid;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#academico{
+    width: 15cm;
+    margin: auto;
+}
+
+#box{
+    background-color: rgb(238, 237, 193);
+    border-radius: 100px;
+    margin: auto;
+    text-align: center;
+    border: 4px rgb(201, 199, 120) solid;
+    width: 45%;
 }
